@@ -1,0 +1,124 @@
+@media screen and (max-width:1200px){
+/*
+#global
+*/
+.aboutus-header:after,
+.service-header:after,
+.test-header:after,
+.news-header:after{
+  left:45%;
+}
+  .aboutus-header,
+  .news-header,
+  .test-header,
+  .service-header{
+    font-size:2rem;
+  }
+  /*----------
+    # slider
+   ----------*/
+   .slider>.slider-content>p{
+    line-height: 22px;
+  }
+   .slider>.slider-content>h1{
+    font-size: 2.5rem;
+   }
+    .slider-photo{
+      margin-top: 140px;
+      width:45%;
+      height: 400px;
+    }
+ /*----------
+ #aboutus
+ ----------*/
+.aboutus2 img{
+  width: 100%;
+  margin:50px auto 0 auto;
+  display: block;
+}
+.aboutus2 h1{
+  margin-bottom:0px;
+}
+.aboutus-content{
+  width: 50%;
+ }
+.aboutus-content>p{
+  line-height: 22px;
+}
+.aboutus-photo{
+  width: 40%;
+}
+.aboutus2 p{
+  line-height: 22px;
+  margin-top: 10px;
+}
+/*-----------
+#service
+----------*/
+/*----------
+# testimonial
+----------*/
+   .test-column p{
+  line-height: 22px;
+ }
+ .test-column h2{
+  font-size:20px;
+ }
+ .test-column span{
+  top: 270px;
+ }
+/*----------
+# news
+----------*/
+.news-container img{
+  height: 100%;
+}
+.news-container h3{
+  margin-bottom:0px;
+}
+.news-container h1{
+  margin-bottom:5px;
+}
+.news-content{
+  margin-top: -20px;
+}
+.news-container p{
+  line-height: 22px;
+  margin-top:10px;
+}
+/*--------
+# booking
+----------*/
+.booking>h1{
+  font-size:2rem;
+  line-height: 60px;
+}
+.booking>h4{
+  font-size:1.5;
+  line-height: 30px;
+}
+/*----------
+#footer
+----------*/
+.footer h1{
+    font-size:1.5rem;
+}
+.fone h2{
+  font-size:1.1rem;
+}
+ .f-input{
+  width: 65%;
+ }
+  .f-submit{
+  width: 35%;
+ }
+.fone p,
+.ftwo p,
+.fthree p{
+  font-size:15px;
+}
+ .ffour i{
+  font-size:23px;
+  margin-right:10px;
+ }
+}

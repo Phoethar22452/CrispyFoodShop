@@ -1,0 +1,49 @@
+
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width:590px){
+/*
+#navigation
+*/
+.aboutus-header:after,
+.service-header:after,
+.test-header:after,
+.news-header:after{
+  left:40%;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.header p{
+  padding:10px 0;
+}
+  /*----------
+    # slider*/
+.slider-photo{
+    width:100%;
+     height: 450px;
+  }
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width:480px){
+/*
+#navigation
+*/
+.slider-photo{
+    width:100%;
+    height: 400px;
+  }
+.aboutus-header:after,
+.service-header:after,
+.test-header:after,
+.news-header:after{
+  left:38%;
+}
+  /*----------
+    # slider*/
+.slider-photo{
+    width:100%;
+    height: 400px;
+  }
+}

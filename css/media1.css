@@ -1,0 +1,78 @@
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width:1024px){
+/*
+#header
+*/
+.aboutus-header:after,
+.service-header:after,
+.test-header:after,
+.news-header:after{
+  left:45%;
+}
+.header{
+  padding: 0 5%;
+}
+.header>a:not(:first-child){
+  margin-left: -20%;
+}
+.nav{
+  padding: 0 5%;
+ }
+ p{
+  line-height: 20px;
+ }
+  /*----------
+    # slider
+   ----------*/
+   .slider{
+    padding: 60px 5%;
+  }
+  .slider-photo{
+    width:50%;
+  }
+ /*----------
+ #aboutus
+ ----------*/
+ #aboutus{
+  padding:60px 5%;
+ }
+/*-----------
+#service
+----------*/
+ #service{
+  padding:60px 5%;
+ }
+/*----------
+# testimonial
+----------*/
+ #test{
+  padding:60px 5%;
+ }
+/*---------
+# news
+----------*/
+#news{
+  padding:60px 5%;
+ }
+/*--------
+# booking
+----------*/
+ #booking{
+  padding:40px 5%;
+ }
+/*----------
+#footer
+----------*/
+ footer{
+  padding:60px 5%;
+ }
+ .f-input{
+  width: 60%;
+ }
+  .f-submit{
+  width: 40%;
+ }
+ .ffour i{
+  font-size:20px;
+ }
+}

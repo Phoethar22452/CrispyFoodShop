@@ -1,0 +1,175 @@
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width:768px){
+/*
+#navigation
+*/
+.aboutus-header:after,
+.service-header:after,
+.test-header:after,
+.news-header:after{
+  left:42%;
+}
+.header>a:not(:first-child){
+  margin-left: 0%;
+}
+.main-navi{
+  display: none;
+ }
+ .nav>.main-logo{
+ margin-left: auto;
+ margin-right: auto;
+ }
+  /*----------
+    # slider
+   ----------*/
+.slider{
+    display: flex;
+    flex-direction: column;
+  }
+.slider>.slider-content{
+width: 100%;
+}
+.slider>.slider-content{
+    margin-top: 20px;
+  }
+ .slider-photo{
+  width:80%;
+  height: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+ /*----------
+ #aboutus
+ ----------*/
+ .aboutus{
+  display: flex;
+  flex-direction: column;
+ }
+ .aboutus-content{
+  width: 100%;
+ }
+  .aboutus-photo{
+  margin-top: 50px;
+  width: 100%;
+  height: 350px;
+  background-image: url(../images/blog1.jpg);
+  background-position:55% 0;
+}
+.aboutus2{
+  display: flex;
+  flex-direction: column;
+}
+.aboutus2>div{
+  width: 100%;
+}
+.aboutus2>.aboutus2-content{
+  padding-left: 0px;
+  padding-top: 20px;
+}
+/*-----------
+#service
+----------*/
+.service-row{
+  display: flex;
+  flex-direction: column;
+ }
+.service-column{
+  flex:100%;
+ }
+ .service-column>div{
+  padding-top: 50px;
+ }
+ .service-column:not(:first-child){
+  margin-left:0px;
+ }
+/*----------
+# testimonial
+----------*/
+.test-row{
+  display: flex;
+  flex-direction: column;
+ }
+ .test-column{
+  flex:100%;
+  margin-top: 120px;
+ }
+  .test-column:not(:first-child){
+  margin-left:0px;
+ }
+ .test-column p{
+  margin-bottom:120px;
+ } 
+  .test-column span{
+  top: 250px;
+}
+.test-column:first-child{
+margin-top: -20px;
+}
+/*---------
+# news
+----------*/
+ .news-container{
+  display: flex;
+  flex-direction: column;
+}
+.news-container>.news-content{
+  width: 100%;padding-left:0px;
+}
+.news-container>div{
+  width: 100%;
+}
+.news-container h3{
+  margin-top:20px;
+}
+.news2-photo{
+ margin-top:20px;
+}
+/*--------
+# booking
+----------*/
+.booking>h1{
+  font-size:1.5rem;
+  line-height: 60px;
+}
+.booking>h4{
+  font-size:20px;
+  line-height: 30px;
+}
+/*----------
+#footer
+----------*/
+ .footer{
+  display: flex;
+  flex-direction: column;
+ }
+.fcolumn{
+  flex: 100%;
+}
+.f-input{
+  height:40px;
+
+ }
+  .f-input{
+  width: 60%;
+ }
+  .f-submit{
+  width: 40%;
+  height: 44px;
+ }
+.fcolumn:not(:first-child){
+  margin-left:0px;
+ }
+ .fcolumn h1{
+  margin-top: 10px;
+  margin-bottom:10px;
+ }
+ .social{
+  display: flex;
+  justify-content: space-between;
+ }
+  .social i{
+    font-size:30px;
+  }
+}
